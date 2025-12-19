@@ -1,0 +1,181 @@
+<!DOCTYPE html>
+<html lang="vi">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Vinkay - Cây Giáng Sinh 3D Cao Cấp | Trang Chủ</title>
+    <style>
+        * {
+            margin: 0;
+            padding: 0;
+            box-sizing: border-box;
+        }
+        
+        body {
+            font-family: 'Segoe UI', Tahoma, Geneva, Verdana, sans-serif;
+            background: linear-gradient(135deg, #0a0a0a 0%, #1a1a2e 100%);
+            color: #fff;
+            min-height: 100vh;
+            padding: 40px 20px;
+        }
+        
+        .container {
+            max-width: 1200px;
+            margin: 0 auto;
+        }
+        
+        h1 {
+            text-align: center;
+            font-size: 2.5em;
+            margin-bottom: 10px;
+            background: linear-gradient(45deg, #ffd966, #ff6b6b);
+            -webkit-background-clip: text;
+            -webkit-text-fill-color: transparent;
+            background-clip: text;
+        }
+        
+        .subtitle {
+            text-align: center;
+            color: #aaa;
+            margin-bottom: 50px;
+            font-size: 1.1em;
+        }
+        
+        .grid {
+            display: grid;
+            grid-template-columns: repeat(auto-fit, minmax(300px, 1fr));
+            gap: 25px;
+            margin-top: 40px;
+        }
+        
+        .card {
+            background: rgba(255, 255, 255, 0.05);
+            border: 1px solid rgba(255, 217, 102, 0.2);
+            border-radius: 15px;
+            padding: 25px;
+            transition: all 0.3s ease;
+            cursor: pointer;
+            text-decoration: none;
+            color: inherit;
+            display: block;
+        }
+        
+        .card:hover {
+            transform: translateY(-5px);
+            border-color: rgba(255, 217, 102, 0.5);
+            background: rgba(255, 255, 255, 0.08);
+            box-shadow: 0 10px 30px rgba(255, 217, 102, 0.2);
+        }
+        
+        .card h2 {
+            color: #ffd966;
+            margin-bottom: 10px;
+            font-size: 1.4em;
+        }
+        
+        .card p {
+            color: #ccc;
+            line-height: 1.6;
+            font-size: 0.95em;
+        }
+        
+        .badge {
+            display: inline-block;
+            background: rgba(255, 217, 102, 0.2);
+            color: #ffd966;
+            padding: 4px 12px;
+            border-radius: 20px;
+            font-size: 0.8em;
+            margin-top: 10px;
+            margin-right: 5px;
+        }
+        
+        .footer {
+            text-align: center;
+            margin-top: 60px;
+            padding-top: 30px;
+            border-top: 1px solid rgba(255, 255, 255, 0.1);
+            color: #888;
+        }
+        
+        .emoji {
+            font-size: 1.5em;
+            margin-right: 8px;
+        }
+    </style>
+</head>
+<body>
+    <div class="container">
+        <h1>🎄 Cây Giáng Sinh 3D Cao Cấp</h1>
+        <p class="subtitle">Chọn một phiên bản để khám phá</p>
+        
+        <div class="grid">
+            <a href="tree_basic.html" class="card">
+                <h2><span class="emoji">🌲</span>Phiên Bản Cơ Bản</h2>
+                <p>Cây thông 3D với các hạt trang trí, upload ảnh đơn giản và điều khiển cử chỉ tay AI.</p>
+                <span class="badge">Cơ bản</span>
+                <span class="badge">Cử chỉ tay</span>
+            </a>
+            
+            <a href="tree_cloud.html" class="card">
+                <h2><span class="emoji">☁️</span>Phiên Bản Đám Mây</h2>
+                <p>Hỗ trợ tải ảnh từ URL đám mây, cảm ứng đa điểm và hiệu ứng tuyết rơi.</p>
+                <span class="badge">Đám mây</span>
+                <span class="badge">Cảm ứng</span>
+                <span class="badge">Tuyết</span>
+            </a>
+            
+            <a href="tree_folder.html" class="card">
+                <h2><span class="emoji">📁</span>Phiên Bản Tự Động Đọc Thư Mục</h2>
+                <p>Upload cả thư mục hoặc quét tự động từ thư mục ./images/, bố cục xoắn ốc.</p>
+                <span class="badge">Thư mục</span>
+                <span class="badge">Tự động</span>
+            </a>
+            
+            <a href="tree_helical.html" class="card">
+                <h2><span class="emoji">🌀</span>Phiên Bản Xoắn Ốc</h2>
+                <p>Bố cục ảnh xoắn ốc đẹp mắt với 3 vòng quanh cây, ảnh luôn hướng ra ngoài.</p>
+                <span class="badge">Xoắn ốc</span>
+                <span class="badge">Bố cục đẹp</span>
+            </a>
+            
+            <a href="tree_pro.html" class="card">
+                <h2><span class="emoji">⭐</span>Phiên Bản Chuyên Nghiệp</h2>
+                <p>Hiệu ứng tuyết rơi, nền gradient đẹp mắt, ánh sáng tối ưu và upload thư mục.</p>
+                <span class="badge">Chuyên nghiệp</span>
+                <span class="badge">Tuyết</span>
+                <span class="badge">Gradient</span>
+            </a>
+            
+            <a href="tree_star.html" class="card">
+                <h2><span class="emoji">✨</span>Phiên Bản Cử Chỉ Tay Thích Ứng</h2>
+                <p>Hệ thống nhận diện cử chỉ tay thông minh, tự điều chỉnh theo kích thước bàn tay.</p>
+                <span class="badge">AI thông minh</span>
+                <span class="badge">Thích ứng</span>
+            </a>
+            
+            <a href="tree_touch.html" class="card">
+                <h2><span class="emoji">📊</span>Phiên Bản Cảm Ứng & Thống Kê</h2>
+                <p>Cảm ứng đa điểm, bảng thống kê người truy cập, bản đồ thế giới và hiệu ứng tuyết.</p>
+                <span class="badge">Cảm ứng</span>
+                <span class="badge">Thống kê</span>
+                <span class="badge">Đầy đủ</span>
+            </a>
+            
+            <a href="tree_wp.html" class="card">
+                <h2><span class="emoji">🎁</span>Phiên Bản WP</h2>
+                <p>Phiên bản tối giản với ảnh mặc định có lời chúc, giao diện đơn giản nhất.</p>
+                <span class="badge">Tối giản</span>
+                <span class="badge">WP</span>
+            </a>
+        </div>
+        
+        <div class="footer">
+            <p>🎄 <strong>Vinkay - Cây Giáng Sinh 3D Cao Cấp</strong></p>
+            <p>Tác giả: vinkay215 | Ngày: 06/08/2025</p>
+            <p style="margin-top: 15px; font-size: 0.9em;">Chúc mừng Giáng Sinh! 🎅✨</p>
+        </div>
+    </div>
+</body>
+</html>
+
