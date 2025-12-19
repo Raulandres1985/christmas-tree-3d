@@ -142,17 +142,25 @@
             color: rgba(255, 255, 255, 0.7);
             font-weight: 300;
             max-width: 600px;
-            margin: 0 auto 40px;
+            margin: 0 auto 30px;
             letter-spacing: 2px;
             text-transform: uppercase;
         }
 
-        /* Donate Button */
+        /* Button Group Header */
+        .header-btns {
+            display: flex;
+            justify-content: center;
+            gap: 15px;
+            flex-wrap: wrap;
+        }
+
+        /* Donate Button & Code Button */
         .donate-btn {
             display: inline-flex;
             align-items: center;
             gap: 12px;
-            padding: 15px 35px;
+            padding: 15px 30px;
             background: rgba(255, 255, 255, 0.05);
             border: 1px solid var(--glass-border);
             border-radius: 50px;
@@ -162,6 +170,7 @@
             backdrop-filter: blur(10px);
             transition: var(--transition);
             box-shadow: 0 10px 30px rgba(0, 0, 0, 0.3);
+            font-size: 0.95rem;
         }
 
         .donate-btn:hover {
@@ -169,6 +178,10 @@
             color: #000;
             transform: translateY(-5px);
             box-shadow: 0 15px 40px rgba(255, 207, 103, 0.4);
+        }
+
+        .donate-btn i {
+            font-size: 1.1rem;
         }
 
         /* Grid Layout */
@@ -296,6 +309,7 @@
             .header h1 { font-size: 2.8rem; }
             .grid { grid-template-columns: 1fr; }
             .container { padding: 40px 15px; }
+            .donate-btn { width: 100%; justify-content: center; }
         }
     </style>
 </head>
@@ -308,10 +322,16 @@
         <header class="header">
             <h1>Vinkay Christmas</h1>
             <p class="subtitle">Experience the Magic of 3D Technology</p>
-            <a href="https://vinkay.vercel.app/#donate" target="_blank" class="donate-btn">
-                <i class="fas fa-coffee"></i>
-                Ủng hộ tác giả
-            </a>
+            <div class="header-btns">
+                <a href="https://vinkay.vercel.app/#donate" target="_blank" class="donate-btn">
+                    <i class="fas fa-coffee"></i>
+                    Ủng hộ tác giả
+                </a>
+                <a href="https://github.com/vinkay215/christmas-tree-3d" target="_blank" class="donate-btn">
+                    <i class="fab fa-github"></i>
+                    Tải mã nguồn
+                </a>
+            </div>
         </header>
 
         <!-- Main Grid -->
